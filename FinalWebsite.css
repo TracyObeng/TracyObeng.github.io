@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html,body{
+	height: 100%;
+	width:100%;
+	font-family: 'Lato', sans-serif;
+	color:#222;
+	background-color: #FDF3EE;
+}
+
+
+.navbar{
+		height:10%;
+		padding: .8rem;
+    	box-shadow: 0 10px 20px rgba(50,50,50,.95);
+    	 mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+    	 position: fixed;
+    	 
+}
+.nav-link{
+	font-size:1.1em;
+	font-weight: bolder;
+	color:#000000;
+	
+
+}
+.navbar-brand {
+	border-radius: 50%;
+}
+.carousel-inner img{
+	width:100%;
+	height:60vh;
+}
+.carousel-caption{
+
+	position: absolute;
+	top:35%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1{
+	color:#fff;
+	font-size: 1000%;
+	text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+	color:#fff;
+	text-shadow: 1px 1px 10px #000;
+	font-size:200%;
+	font-weight:700;
+}
+#GsButton{
+	/*background-color: #B4B2B4;*/
+	background-color: rgb(255, 255, 255);
+	opacity: 0.5;
+	color:#000;
+	font-weight: bold;
+}
+.padding{
+	padding-bottom: 2rem;
+}
+.topbar{
+	padding: 1em;
+}
+
+.pic{
+	
+	border:2px solid #000;
+
+}
+.pics{
+	padding:3em;
+	border:2px solid #000;
+}
+.welcome{ 
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.welcome hr{
+	border-top: 2px solid #466060;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}	
+
+.lead{
+	line-height: 2em;
+	font-size: 160%;
+	padding-top: 2rem;
+}
+
+.modules{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 1rem;
+}		
+.modules h3{
+	text-align: center;
+	font-size :170%;
+
+}	
+.modules hr{
+	border-color: #677C7C;
+	margin-top: .5rem;
+}
+.fa-robot{
+	color:#1C0221;
+}
+.fa-toolbox{
+ 	color:#8B0003;
+}
+.fa-code{
+	color:#218D98;
+}
+.fa-vector-square{
+	color:  #00532E;
+}
+.fa-lightbulb{
+	color: #F18F01; 
+}
+
+.fa-robot:hover,
+.fa-toolbox:hover,
+.fa-code:hover,
+.fa-vector-square:hover,
+.fa-lightbulb:hover{ 
+	color:#d5d5d5;
+}
+	
+
+.social a{
+	padding: 3rem;
+}
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-twitter{
+	color:#00aced;
+}
+.fa-youtube{
+	color:#bb0000;
+}
+.fa-facebook:hover,
+ .fa-twitter:hover, 
+ .fa-youtube:hover{
+ 	color: #d5d5d5;
+}
+footer hr{
+	border-top: 1px solid #fff;
+	
+	margin-bottom: 1rem;
+}	
+
+footer{
+	background-color: #3f3f3f;
+	color:#d5d5d5;
+}
+.light hr{
+	color:#ffffff;
+}
+
+#container {
+  width: 30vw;
+  height: 40vh;
+  position: relative;
+  background: none;
+}
+#animate {
+  width: 30%;
+  height: 40%;
+  position: absolute;
+  background-color: none;
+  text-align: center;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ #news{
+ 	background: #58B7D1;
+ 	border-radius: 20%;
+ 	font-family: Lato;
+ 	font-weight:bold;
+ }
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
